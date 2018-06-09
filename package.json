@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "name": "vue-karma-jasmine-istanbul",
+  "version": "1.0.0",
+  "description": "Test VUE karma jasmine istanbuld",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "test": "env BABEL_ENV=test karma start",
+    "test:watch": "npm test -- --no-single-run"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.2.4",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.12.0"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.18",
+    "babel-plugin-istanbul": "^4.1.6",
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.2",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.2",
+    "karma-jasmine": "^1.1.2",
+    "karma-webpack": "^3.0.0"
+  }
+}
